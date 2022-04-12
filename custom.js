@@ -1,4 +1,4 @@
-// JavaScript for enabling the map on load.
+// JavaScript for enabling the map on load. Change the access token and the web page.
 
 mapboxgl.accessToken = 'Change HERE';
 
