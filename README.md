@@ -6,10 +6,10 @@ This repository includes the barebones files for getting Mapbox setup. You will 
 Please see the full video for making the requisite changes. The parts of the text that need to be changed are marked with `Change HERE`.
 
 
-`mapboxgl.accessToken = 'Change HERE';
+`mapboxgl.accessToken = 'Change HERE';`
 
-window.onload = function() {
-const map = new mapboxgl.Map({
+`window.onload = function() {`
+`const map = new mapboxgl.Map({`
   container: 'map', // container ID
   style: 'Change HERE', // style URL
   center: [77.0688997, 20.5272803], // starting position [lng, lat]
